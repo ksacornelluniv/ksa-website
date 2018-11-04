@@ -62,7 +62,12 @@ Daniel also enjoys playing basketball and soccer, and listening to music.
 
 *Sung Wook Han*
 
-DESCRIPTION
+Sung Wook Han is a sophomore from South Korea, studying Environmental Sustainability and Sciences.
+
+Sung Wook is an art director of Korean Student Association. Also, he is an art director of the LoKo in Cornell, the choreography group.
+During his first year at Cornell, he learned filming techniques while comprehending the technical skills behind the scenes.
+
+He also enjoys lifting, dancing, eating and studying.
 
 *Soo Hwan Chung*
 
@@ -74,7 +79,13 @@ DESCRIPTION
 
 *Sung Woo Min*
 
-DESCRIPTION
+Sung Woo is a sophomore from Seoul, Korea studying Computer Science in the College of Arts and Sciences.
+
+In addition to working for Professional Development for KSA, Sung Woo is also part of the Cornell Spark Product and Design Project Team.
+
+Last summer, Sung Woo interned at Humanscape, A Blockchain-based Patient Network in the Software Development Team. Sung Woo was intimately involved in research of the company’s token economy - analyzing the differences between the Steemit and EOS platforms to apply the appropriate token economy to the company blockchain. He also assisted in the smart contract transactions of Ethereum and the company coin.
+
+Sung Woo enjoys freestyle wrestling and listening to Jazz in his free time. Sung Woo can be reached at sm2598@cornell.edu.
 
 *You Min Choi*
 
@@ -82,8 +93,11 @@ DESCRIPTION
 
 *Yein Kang*
 
-Yein is a junior from South Korea, majoring in Hotel Administration and minoring in information science while concentrating in finance. She currently serves as a Professional Development chair of Cornell KSA. Outside of KSA, she has been involved in Ascend Cornell, ISAA, HEC and Hotelie Entrepreneurs. Her professional experiences include interning at A.T. Kearney, a global management consulting firm, and Grand InterContinental Seoul Parnas, and she intends to pursue a career in data analytics or strategy consulting. Yein enjoys traveling, cooking, doing yoga and watching TV shows.
-Yein can be reached at yk652@cornell.edu.
+Yein is a junior from South Korea, majoring in Hotel Administration and minoring in information science while concentrating in finance.
+
+She currently serves as a Professional Development chair of Cornell KSA. Outside of KSA, she has been involved in Ascend Cornell, ISAA, HEC and Hotelie Entrepreneurs. Her professional experiences include interning at A.T. Kearney, a global management consulting firm, and Grand InterContinental Seoul Parnas, and she intends to pursue a career in data analytics or strategy consulting.
+
+Yein enjoys traveling, cooking, doing yoga and watching TV shows. Yein can be reached at yk652@cornell.edu.
 
 *Priscilla Chang*
 
@@ -126,6 +140,6 @@ Kyu Hwan is a freshman from Vietnam, intending to study mechanical engineering. 
 
 On Campus, he is one of the freshman representatives of Cornell Korean Student Association. Also, he is a member of Corporate relations sub-team in Engineering Career Fair Team at Cornell and a Video Producer at LOKO Dance Team. During his high school, he was the founder and director of the very first International School Science Competition at Ho Chi Minh City, receiving $5000 sponsor from Monash University and gathering around 100 participants,
 
-Kyu Hwan is currently interested in entering the automobile or aerospace industries, due to his special interest in motorbikes and air crafts, but he is still exploring different fields of study. 
+Kyu Hwan is currently interested in entering the automobile or aerospace industries, due to his special interest in motorbikes and air crafts, but he is still exploring different fields of study.
 
 He likes to listen to music and watch movies during his free time. Also, he has special interest in Brazilian Jiu Jitsu and motorbikes.
