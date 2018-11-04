@@ -1,0 +1,133 @@
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: -4px; /* Add a top margin */
+    margin-bottom: 24px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    margin-left: -15%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #141414;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #424242;
+}
+
+/* Add a background color and some padding around the form */
+
+.section {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+}
+
+.h_1 {
+    color: black;
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-size: 70px;
+    text-align: center;
+    background-color:  #f2f2f2;
+    width: 100%;
+    margin-left: -25px;
+    margin-bottom: 70px;
+}
+.container {
+    border-radius: 0px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    height: 55vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    align-content: center;
+   
+}
+.container-content{
+    width: 45%;
+    height: auto;
+    color: black;
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    vertical-align: center;
+    text-align: left;
+    font-size: 18px;
+    
+}
+.desc1 {
+    width: 100%;
+    height:auto;
+    color: black;
+    margin-left: 14%;
+    font-size: 18px;
+}
+
+.desc1 h {
+    color: black;
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color:  #f2f2f2;
+    width: 100%;
+    margin-left: 20px;
+    text-decoration-color: #141414;
+    text-decoration-style: bold;
+}
+
+.input1 {
+    width: 100%;
+    height:auto;
+    color: black;
+    align-content: center;
+    text-align: center;
+}
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+}
+
+
+.topnav a {
+    position: relative;
+    float: right;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin-right: 30px;
+}
+.topnav a:hover {
+    color: darkgray;
+    font-weight: bold;
+
+}
+
+.active_nav {
+    color: dimgray;
+}
+
+
+

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <title>Cornell KSA</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/v1.css" media="all">
+    <link rel="shortcut icon" href="../ksa/images/171.PNG" type="image/x-icon" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    
+    <script src="../ksa/js/main.js"></script>
+    <script>
+    window.onbeforeunload = function windowload() {
+        window.scrollTo(0, -100);
+    }
+    </script>  
+</head>
+
+<body id = "home">
+    <img src="../ksa/images/IMG_3845.JPG" alt="KSA_logo" class="logo_ksa img1">
+    
+    <div class = "topnav" id="top_nav">
+        <a href="contact.html">CONTACT</a>
+        <a href="board.html" >EBOARD</a>
+        <a onclick='scroll1("spotlight")'>SPOTLIGHT</a>
+        <a onclick='scroll1("about")'>ABOUT</a>
+        <a class="active_nav", onclick='scroll1("home")'>HOME</a>
+
+    </div>
+
+    <div class="content">
+        <section class="hero hero1">
+            <div class="hero-inner">
+                <h0>Cornell KSA</h0>
+                <h2></h2>
+            </div>
+        </section>
+
+        <div class="cont_body yalla_info1">
+            <div class="in_info">
+                <h3 class="yalla_info_tit">About</h3>
+                
+                <div id="about"><div class="yalla_info_contents">
+
+                    <div class="info_icon"><br><span class="y_icontitle">MISSION</span>
+                        <span class="y_icondesc">Enrich the college experience <br>by listening to the needs of students.</span></div>
+                    <div class="info_icon"><span class="y_icontitle">TRADITION</span>
+                        <span class="y_icondesc">Foster relationships among students by promoting learning and awareness of Korean culture throughout Cornell.</span></div>
+                    <div class="info_icon"><span class="y_icontitle">HERE</span>
+                        <span class="y_icondesc">Enhance the sense of community by planning a variety of social, cultural and political events.</span></div>
+                </div>
+                </div>
+            </div>
+        </div>
+    <div class="content1" style="background: #f2f2f2; background-color: #f2f2f2;">
+        <div class="w3-content w3-display-container" style="height: 100vh; background: #f2f2f2;">
+            <div id="spotlight"><h1 style="color: black; font-size: 40px; padding-top: 5px; text-align: center;">Spotlight</h1>
+            <img class="mySlides" src="../ksa/images/ksa_halloween_party.jpg" style="width:100%; max-height: 580px;">
+            <img class="mySlides" src="../ksa/images/ksa_hangul_day.jpg" style="width:100%">
+            <img class="mySlides" src="../ksa/images/ksa_freshman_orientation.jpg" style="width:100%">
+            <button class="prev" style="-webkit-tap-highlight-color: transparent" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="next" style="-webkit-tap-highlight-color: transparent" onclick="plusDivs(1)" id="ang2">&#10095;</button>
+                </div>
+        </div>
+    </div>
+    <script>
+        var slideIndex = 1;
+            showDivs(slideIndex);
+    </script>
+</body>
+
+<div id="footer">
+    <div id="contact"></div>
+    <div class="foot">
+        <dl class="info">
+            <dt>Contact Information</dt>
+            <dd>채용 관련 문의: sh995@cornell.edu <span class="line">|</span> 기타 모든 문의: sh995@cornell.edu <span class="line">|</span> General inquiries: sh995@cornell.edu
+            </dd>
+        </dl>
+        <dl class="address">
+            <dt>Facebook</dt>
+            <dd>https://www.facebook.com/cornellksa/</dd>
+        </dl>
+    </div>
+    <div class="copyright">
+        <p>Website by Jaemok Yoon and Steve Min</p>
+    </div>
+</div>
+
+</html>
