@@ -79,10 +79,10 @@ h2 {
   text-align: center;
 }
 
-h {
+h6 {
     color: black;
     font-family: "San Francisco", Helvetica, Arial, sans-serif;
-    font-size:14px; 
+    font-size:14px;
     margin-left: 20px;
 }
 
@@ -127,7 +127,7 @@ p {
     background-attachment: fixed;
 }
 
-.hero h0 {
+.hero h5 {
     /* Text styles */
     font-size: 6em;
     color: white;
@@ -137,7 +137,6 @@ p {
     /* Margins */
     margin-top: 0;
     margin-bottom: 0.5em;
-
 }
 
 .hero h1 {
@@ -424,7 +423,7 @@ content1 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-   
+
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
@@ -460,7 +459,6 @@ content1 {
     color: black;
     margin-left: 20px;
     margin-right: 20px;
-    
 }
 
 
