@@ -75,6 +75,7 @@ input[type=submit]:hover {
     font-size: 18px;
     
 }
+/*desc1 is used in both eboard page and contact page*/
 .desc1 {
     width: 100%;
     height:auto;

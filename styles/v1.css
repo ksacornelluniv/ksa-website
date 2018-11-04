@@ -366,8 +366,8 @@ content1 {
 
 .eboard {
     width: 100vw;
-    height: auto;
-    min-height: 250vh;
+    max-height: 200vh;
+    min-height: 200vh;
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
@@ -375,9 +375,9 @@ content1 {
 }
 .gallery1 {
     width: 20vw;
-    height: 250px;
     margin-left: 4vw;
     border: 1px solid white;
+    max-height: 100px;
 }
 .gallery1 img {
     width: 100%;
@@ -386,12 +386,13 @@ content1 {
 
 .gallery {
     width: 20vw;
-    height: auto;
+    
     margin-left: 4vw;
     border: 1px solid white;
     margin-bottom: 0;
     text-align: center;
     font-size: 20px;
+    max-height: 100px;
 
 }
 .gallery:hover {
@@ -402,11 +403,6 @@ content1 {
     width: 100%;
     height: auto;
 }
-.gallery desc {
-    padding: 15px;
-    text-align: center;
-}
-
 
 /* The Modal (background) */
 .modal {
@@ -422,7 +418,7 @@ content1 {
     background-color: rgb(0,0,0); /* Fallback color */
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
-
+   
 /* Modal Content */
 .modal-content {
     background-color: #fefefe;
@@ -435,11 +431,12 @@ content1 {
     display: flex;
     flex-wrap: wrap;
 }
+
 .modal-content img{
     width: 50%;
     object-fit: cover;
 }
-.modal-content desc {
+.desc {
     width: 50%;
     color: black;
 }
@@ -456,6 +453,7 @@ content1 {
     font-size: 18px;
     color: black;
     margin-left: 20px;
+    
 }
 
 
@@ -511,4 +509,3 @@ content1 {
 .topnav #myLinks {
 display: none;
 }
-  
