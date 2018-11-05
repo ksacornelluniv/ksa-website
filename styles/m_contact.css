@@ -1,14 +1,14 @@
 /* Style inputs with type="text", select elements and textareas */
 input[type=text], select, textarea {
     width: 100%; /* Full width */
-    padding: 12px; /* Some padding */  
+    padding: 12px; /* Some padding */
     border: 1px solid #ccc; /* Gray border */
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: -4px; /* Add a top margin */
     margin-bottom: 24px; /* Bottom margin */
     resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin-left: -15%;
 }
 
@@ -38,14 +38,14 @@ input[type=submit]:hover {
     display: flex;
     flex-wrap: wrap;
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 70px;
     text-align: center;
 }
 
 .h_1 {
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 70px;
     text-align: center;
     background-color:  #f2f2f2;
@@ -61,15 +61,15 @@ input[type=submit]:hover {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     align-content: center;
-   
+
 }
 .container-content{
     width: 45%;
     height: auto;
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     vertical-align: center;
     text-align: left;
     font-size: 18px;
@@ -86,7 +86,7 @@ input[type=submit]:hover {
 
 .desc1 h {
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size: 18px;
     background-color:  #f2f2f2;
     width: 100%;
@@ -105,7 +105,7 @@ input[type=submit]:hover {
 .topnav {
     background-color: transparent;
     overflow: hidden;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 
@@ -129,6 +129,3 @@ input[type=submit]:hover {
 .active_nav {
     color: dimgray;
 }
-
-
-

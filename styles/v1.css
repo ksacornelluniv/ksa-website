@@ -1,6 +1,6 @@
 li {
   color: #2e3957;
-  font-family: "San Francisco", Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
 .topnav {
     background-color: transparent;
     overflow: hidden;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .logo_ksa{
@@ -80,10 +80,10 @@ h2 {
 }
 
 h6 {
-    color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
-    font-size:14px;
-    margin-left: 20px;
+  color: black;
+  font-family: "San Francisco", Helvetica, Arial, sans-serif;
+  font-size:14px;
+  margin-left: 20px;
 }
 
 h3 {
@@ -92,7 +92,7 @@ h3 {
 }
 
 body {
-    margin-left: 0px;
+  margin-left: 0px;
 
 }
 
@@ -129,9 +129,9 @@ p {
 
 .hero h5 {
     /* Text styles */
-    font-size: 6em;
+    font-size: 7em;
     color: white;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 
     /* Margins */
@@ -143,7 +143,7 @@ p {
     /* Text styles */
     font-size: 3.5em;
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: lighter;
 
     /* Margins */
@@ -155,7 +155,7 @@ p {
     /* Text styles */
     font-size: 3em;
     color: white;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 
     /* Margins */
     margin-top: 0;
@@ -207,14 +207,13 @@ p {
 .cont_body.yalla_info1 .in_info {position:relative;width:1020px; text-align:center;margin:0 auto;padding: 100px 0;}
 .yalla_info_tit {
 
-    font-size: 3.5em;
-    color: black;
-    font-family: PT Sans,sans-serif;
-    font-weight: lighter;
+  font-size: 3.5em;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
 
-    /* Margins */
-    margin-top: -2vh;
-    margin-bottom: 0.2em;
+  /* Margins */
+  margin-top: -2vh;
+  margin-bottom: 0.2em;
 }
 
 .yalla_logo {
@@ -304,30 +303,30 @@ p {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-
+    font-family: "Times New Roman", Times, serif;
 }
 
 .yalla_info_contents .info_icon .y_icontitle{
 
-    font-size:24px;
-    padding-top:20px;
-    text-align: center;
-    font-weight: bold;
-    display:inline-block;
-    color: grey;
-    width:300px;
-    margin-left: -30px;
-
+  font-size:24px;
+  padding-top:20px;
+  text-align: center;
+  font-weight: bold;
+  display:inline-block;
+  color: grey;
+  width:300px;
+  margin-left: -30px;
+  font-family: "Times New Roman", Times, serif;
 
 }
 .yalla_info_contents .info_icon .y_icondesc{
-    vertical-align:top;
-    font-size: 20px;
-    padding-top: 5px;
-    text-align: center;
-    display:inline-block;
-    width: 300px;
-    margin-left: -30px;
+  vertical-align:top;
+  font-size: 20px;
+  padding-top: 5px;
+  text-align: center;
+  display:inline-block;
+  width: 300px;
+  margin-left: -30px;
 
 }
 
@@ -370,7 +369,7 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     padding-left: 50%;
     margin-left: -550px;
     align-content: center;
