@@ -48,8 +48,6 @@ ul {
     color: dimgray;
 }
 
-
-
 li a {
     display: block;
     color: white;
@@ -68,7 +66,7 @@ li a:hover {
 
 h1 {
   color: black;
-  font-family: "San Francisco", Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 70px;
   text-align: center;
 }
@@ -81,7 +79,7 @@ h2 {
 
 h6 {
   color: black;
-  font-family: "San Francisco", Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size:14px;
   margin-left: 20px;
 }
@@ -214,6 +212,7 @@ p {
   /* Margins */
   margin-top: -2vh;
   margin-bottom: 0.2em;
+
 }
 
 .yalla_logo {
@@ -327,7 +326,7 @@ p {
   display:inline-block;
   width: 300px;
   margin-left: -30px;
-
+  font-family: "Times New Roman", Times, serif;
 }
 
 .cont_body.yalla_info2 {
