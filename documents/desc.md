@@ -101,7 +101,13 @@ Yein enjoys traveling, cooking, doing yoga and watching TV shows. Yein can be re
 
 *Priscilla Chang*
 
-DESCRIPTION
+Priscilla is a sophomore from Seoul, South Korea studying mechanical engineering.
+
+Besides KSA, Priscilla is involved in the Korean Catholic community at Cornell, 4C, by serving as the Event Chair.
+
+Last summer, Priscilla worked as a marketing assistant at Dot, a tech startup for wearable electronic braille devices, where she learned and practiced skills in business and technology marketing. At Cornell, Priscilla hopes to build a sturdy engineering background for effective technology marketing, which she has recently grown an interest in.
+
+During her free time, Priscilla enjoys listening to music, building miniature models, and expanding her knowledge of braille.
 
 *Sung Woo Park*
 

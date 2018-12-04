@@ -13,6 +13,7 @@ function myFunction() {
     x.style.display = "block";
     }
 }
+//For Slide Show 
 function plusDivs(n) {
     showDivs(slideIndex += n);
 }
@@ -26,4 +27,37 @@ function showDivs(n) {
     }
     x[slideIndex-1].style.display = "block";  
 }
+
+function scrollDown() {
+    if (document.body.scrollTop > screen.height || document.documentElement.scrollTop > screen.height ) {
+        document.getElementById('top_nav').style.top = "0";
+        document.getElementById('top_nav').style.backgroundColor = "black";
+        document.getElementById('top_nav').style.opacity = "0.9";
+        
+    } 
+    else if (document.body.scrollTop < 20 || document.documentElement.scrollTop < 20) {
+        document.getElementById('top_nav').style.top = "0";
+        document.getElementById('top_nav').style.backgroundColor = "transparent";
+    }
+    else {
+        document.getElementById('top_nav').style.display = "none";
+    }
+
+}
+
+function menutoggle() {
+    if (screen.width <= 991) {
+        document.getElementById('top_nav').style.display = "none";
+        document.getElementById('mob_nav').style.display = "block";
+    } 
+    else {
+        document.getElementById('top_nav').style.display = "block";
+        document.getElementById('mob_nav').style.display = "none";
+        
+    }
+}
+
+
+
+
 

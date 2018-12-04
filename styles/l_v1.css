@@ -1,4 +1,4 @@
-/*992px to 1200px*/
+/*992px to 1199px*/
 /*LAPTOP*/
 li {
   color: #2e3957;
@@ -17,6 +17,14 @@ ul {
     background-color: transparent;
     overflow: hidden;
     font-family: Gotham,gotham,Verdana,sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: top 1000ms linear;
+    display: block;
+    z-index: 5;
+    padding-top: 8px; 
+    
 }
 
 .logo_ksa{
@@ -35,10 +43,10 @@ ul {
     display: block;
     color: whitesmoke;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 20px;
     text-decoration: none;
-    font-size: 9px;
-    margin-right: 30px;
+    font-size: 13px;
+    margin-right: 35px;
 }
 .topnav a:hover {
     color: darkgray;

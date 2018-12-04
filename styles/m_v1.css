@@ -2,7 +2,7 @@
 /*MOBILE*/
 li {
   color: #2e3957;
-  font-family: "San Francisco", Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
 }
 
 ul {
@@ -16,17 +16,25 @@ ul {
 .topnav {
     background-color: transparent;
     overflow: hidden;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: Gotham,gotham,Verdana,sans-serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: top 1000ms linear;
+    display: block;
+    z-index: 5;
+    padding-top: 8px; 
 }
 
 .logo_ksa{
-    position:absolute;
+    top:10px;
     z-index:10;
     display:block;
     width: 50px;
     height: 50px;
     left:2vw;
-    top:10px;
+    opacity: 0.8;
+    position: absolute;
 }
 
 .topnav a {
@@ -37,7 +45,7 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 9px;
+    font-size: 10px;
     margin-right: 30px;
 }
 .topnav a:hover {
@@ -47,9 +55,39 @@ ul {
 }
 
 .active_nav {
-    color: dimgray;
+    color: transparent;
+    font-display: none;
 }
 
+.mobnav {
+    overflow: hidden;
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    z-index: 100;
+}
+.mobnav #myLinks {
+    display: none;
+    z-index: 100;
+}
+.mobnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+}
+.mobnav a.icon {
+    background-size: 25% 25%;
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.mobnav a.hover {
+    background-color: gray;
+    color: black;
+}
 
 
 li a {
@@ -70,7 +108,7 @@ li a:hover {
 
 h1 {
   color: black;
-  font-family: "San Francisco", Helvetica, Arial, sans-serif;
+  font-family: "Times New Roman", Times, serif;
   font-size: 70px;
   text-align: center;
 }
@@ -83,7 +121,7 @@ h2 {
 
 h6 {
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-size:14px;
     margin-left: 20px;
 }
@@ -133,7 +171,7 @@ p {
     /* Text styles */
     font-size: 6em;
     color: white;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
 
     /* Margins */
@@ -145,7 +183,7 @@ p {
     /* Text styles */
     font-size: 3.5em;
     color: black;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     font-weight: lighter;
 
     /* Margins */
@@ -157,7 +195,7 @@ p {
     /* Text styles */
     font-size: 3em;
     color: white;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
 
     /* Margins */
     margin-top: 0;
@@ -189,7 +227,6 @@ p {
     position: fixed;
     top: 0px;
     width: 100%;
-
 }
 
 .hero1 {
@@ -368,7 +405,7 @@ content1 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    font-family: "San Francisco", Helvetica, Arial, sans-serif;
+    font-family: "Times New Roman", Times, serif;
     margin-left: auto;
     padding-left: 50%;
     margin-left: -330px;
