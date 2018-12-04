@@ -6,12 +6,22 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
   
   <title>Cornell KSA</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
+    <style>
+        .htitle {
+            font-family: Gotham,gotham,Verdana,sans-serif;
+            font-size: 5em;
+            font-weight: 400;
+        }
+    </style>
+    <link rel="stylesheet" type="text/css" href="styles/v1.css" media="screen and (min-width : 1200px)"> <!--Above 1200 px-->
+    <link rel="stylesheet" type="text/css" href="styles/l_v1.css" media="screen and (min-width : 992px)"> <!--992 px to 1200px-->
+    <link rel="stylesheet" type="text/css" href="styles/t_v1.css" media="screen and (min-width : 600px)"> <!--600px to 992px-->
+    <link rel="stylesheet" type="text/css" href="styles/m_v1.css" media="screen and (max-width : 600px)"> <!--Under 600px-->
 
-    <link rel="stylesheet" type="text/css" href="styles/v1.css" media="screen and (min-width : 1120px)"> <!--1120px to 1600px-->
-    <link rel="stylesheet" type="text/css" href="styles/m_v1.css" media="screen and (max-width : 1119px)"> <!--700 px to 1119px-->
     <link rel="shortcut icon" href="images/171.PNG" type="image/x-icon" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--for SLIDE SHOW. Remove from final version-->
     <script src="js/main.js"></script>
     <script>
     window.onbeforeunload = function windowload() {
@@ -22,7 +32,6 @@
 
 <body id= "home">
     <img src="images/IMG_3845.JPG" alt="KSA_logo" class="logo_ksa img1">
-
     <div class = "topnav" id="top_nav">
         <a href="contact.html">CONTACT</a>
         <a href="board.html">EBOARD</a>
@@ -34,7 +43,7 @@
     <div class="content">
         <section class="hero hero1">
             <div class="hero-inner">
-                <h5>Cornell KSA</h5>
+                <div class="htitle">Cornell KSA</div>
                 <h2></h2>
             </div>
         </section>
@@ -62,7 +71,7 @@
             <img class="mySlides" src="images/ksa_freshman_orientation.jpg" style="width:100%" alt="freshmen_orientation">
             <button class="prev" style="-webkit-tap-highlight-color: transparent" onclick="plusDivs(-1)">&#10094;</button>
             <button class="next" style="-webkit-tap-highlight-color: transparent" onclick="plusDivs(1)" id="ang2">&#10095;</button>
-                </div>
+            </div>
         </div>
     </div>
     <script>
@@ -70,22 +79,555 @@
             showDivs(slideIndex);
     </script>
 
-<div id="footer">
-  <div id="contact"></div>
-  <div class="foot">
-      <dl class="info">
-        <dt>Contact Information</dt>
-        <dd>채용 관련 문의: sh995@cornell.edu <span class="line">|</span> 기타 모든 문의: sh995@cornell.edu <span class="line">|</span> General inquiries: sh995@cornell.edu
-        </dd>
-      </dl>
-      <dl class="address">
-          <dt>Facebook</dt>
-          <dd>https://www.facebook.com/cornellksa/</dd>
-      </dl>
-  </div>
-  <div class="copyright">
-    <p>Website by Jaemok Yoon and Sung Woo Min</p>
-  </div>
-</div>
+
+
+<section>
+<div class="eboard">
+        <div class="gallery1">
+            <img src="images/eboard.png" alt="eboard logo" width="18vw">
+            <div class="desc"></div>
+        </div>
+        <div class="gallery" id= "p1">
+            <img src="images/p1.png" alt="Seyoung Heo" width="18vw">
+            <div class="desc1"><strong>Seyoung Heo</strong><br>President</div></div>
+            <div id="modal1" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait16.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Seyoung Heo</h1>
+                        <h2>President</h2>
+                        <p>
+                            Seyoung is a senior, majoring in hotel administration and a minor in real estate.<br><br>
+                            She is the president of KSA for 2018-2019 and she has served as a public relations chair and vice president since 2016.<br><br>
+                            She has experience in both hospitality and consulting industry - this past summer, she worked at A.T. Kearney in Seoul, 
+                            where she worked on data analytics and research. She also has operational and management experience in Ritz-Carlton in 
+                            Seoul and Compass Group in New York. <br><br>
+                            She enjoys snowboarding, cooking, and bartending in her free time. Seyoung can be reached at sh995@cornell.edu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+        <div class="gallery">
+            <img src="images/p2.png" alt="Ju Hee Son" width="18vw" id="p2">
+                <div class="desc1"><strong>Ju Hee Son</strong><br>Vice President</div>
+        </div>
+        <div id="modal2" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait15.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Ju Hee Son</h1>
+                        <h2>Vice President</h2>
+                        <p>
+                            Juhee is a senior from South Korea, studying sociology as a premed.<br><br>
+                            Juhee is serving as the vice president of KSA this semester. On campus, she is also involved in BEARS 
+                            as the vice president, MedLife, a Panhellelic organization Phi Sigma Sigma, and the Linster lab where 
+                            she researches optogenetics projections of AON to the olfactory bulb in rats.<br><br>
+                            Over the summer, Juhee worked as an intern at a real estate consulting firm, Cushman & Wakefield, where 
+                            she analyzed big data for Korean Galleria department store and conducted market analysis for international 
+                            brand expansion strategies. Also, she volunteered at Yonsei University Hospital as a translator for 
+                            international patients, participated in Ryu-Jigan Lab regarding erectile dysfuncion/prostate cancer, 
+                            shadowed a breast cancer surgeon at Yonsei University Hospital.<br><br>
+                            <!--Juhee also enjoys watching netflix, listening to songs, and hanging out with her friends during her spare time.-->
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p8.png" alt="Jae Woo Kim" width="18vw" id="p3">
+                    <div class="desc1"><strong>Jae Woo Kim</strong><br>Vice President</div>
+        </div>
+        <div id="modal3" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait10.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Jae Woo Kim</h1>
+                        <h2>Vice President</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+    
+        <div class="gallery">
+            <img src="images/p7.png" alt="Jihe Joy Han" width="18vw" id="p4">
+                    <div class="desc1"><strong>Jihe Joy Han</strong><br>Senior Advisor</div>
+        </div>
+        <div id="modal4" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait9.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Jihe Joy Han</h1>
+                        <h2>Senior Advisor</h2>
+                        <p>
+                            JiHe(Joy) is a current senior from South Korea double majoring in Economics and Psychology with business in minor.<br><br>
+                            She joined KSA as a Freshman Representative (2015-2016). In her sophomore year, she was a Treasurer of the organization (2016-2017). 
+                            Later on, she served as the President (2017-2018). She is a current Senior Advisor (2018-2019). She is also very active on campus by 
+                            being involved in other organizations such as Students Activities Funding Commission (SAFC) and International Students Union (ISU).<br><br>
+                            She enjoys watching movies, going on adventures, shopping, and mostly eating YUMMY food!<br><br>
+                            This spring, she is an incoming Business Analyst at a management consulting firm, Wavestone in New York, NY.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <div id="eboard"></div>
+            <img src="images/p6.png" alt="Tae Jung Kim" width="18vw" id="p5">
+                    <div class="desc1"><strong>Tae Jung Kim</strong><br>Senior Advisor</div>
+        </div>
+        <div id="modal5" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait11.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Tae Jung Kim</h1>
+                        <h2>Senior Advisor</h2>
+                        <p>
+                            TJ is a senior from Seoul, Korea studying Chemical Engineering.<br><br>
+                            He is currently one of the Senior Advisors in KSA. He is also the Finance Director in ECaFT (Engineering Career Fair Team).<br><br>
+                            TJ has most recently interned at Samsung Biologics, a Pharmaceutical Manufacturing company. During his internship, he optimized the communication between the clients and the project management team by analyzing past customer data and compiling it into an interactive database. He is interested in pursuing a Master’s degree in Engineering Management to follow a business-related career path with a technical background.<br><br>
+                            He also enjoys playing soccer, DJing, watching movies, and traveling.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p5.png" alt="Rachel Song" width="18vw" id="p6">
+                    <div class="desc1"><strong>Rachel Song</strong><br>Program Director</div>
+        </div>
+        <div id="modal6" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait14.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Rachel Song</h1>
+                        <h2>Program Director</h2>
+                        <p>
+                            Rachel is a senior from Seoul, Korea majoring Communication and minoring in Business. She currently serves as the program director for KSA, responsible for the buddy buddy program.<br><br>
+                            In addition to program director, Rachel is involved in Slope Media and the Virtual Embodiment Lab in the Communication department.<br><br>
+                            Last summer, Rachel worked at Curacity located in New York City, where she was responsible for building relationships with hotel partners and media publishers. She is looking to pursue her career in marketing and brand management.<br><br>                            
+                            Rachel enjoys drinking iced-coffee all year-along, more specifically "medium iced coffee with two cream and three pumps of caramel swirl” from Dunkin Donuts so she is sad that DD is gone in Collegetown. She also enjoys drinking boba, and meeting new people.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p19.png" alt="Daniel Oh" width="18vw" id="p7">
+                <div class="desc1"><strong>Daniel Oh</strong><br>Treasurer</div>
+        </div>
+        <div id="modal7" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait17.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Daniel Oh</h1>
+                        <h2>Treasurer</h2>
+                        <p>
+                            Daniel is a junior from Williamsburg, VA studying Applied Economics and Management.<br><br>
+                            In addition to being a treasurer for KSA, Daniel is a commissioner of SAFC, the Student Activities Funding Commission. He also participates in College Brave, a consulting project partnered with Reluctantly Brave and Nando's.<br><br>                       
+                            Last summer, Daniel worked as a Operations Intern at Altcoin Advisors LLC, where he helped the firm on board to different cryptocurrency exchanges and research possible arbitrage opportunities. He also researched macro trends of blockchain technology and its possible applications. This upcoming summer, he will be working as a summer analyst at SunTrust Robinson Humphrey(STRH) in New York.<br><br>                        
+                            Daniel also enjoys playing basketball and soccer, and listening to music.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p4.png" alt="Sung Wook Han" width="18vw" id="p8">
+                    <div class="desc1"><strong>Sung Wook Han</strong><br>Art Director</div>
+        </div>
+        <div id="modal8" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait5.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Sung Wook Han</h1>
+                        <h2>Art Director</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p3.png" alt="Soo Hwan Chung" width="18vw" id="p9">
+                    <div class="desc1"><strong>Soo Hwan Chung</strong><br>Program Director</div>
+        </div>
+        <div id="modal9" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait4.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Soo Hwan Chung</h1>
+                        <h2>Program Director</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p15.png" alt="Ha Young Shin" width="18vw" id="p10">
+                    <div class="desc1"><strong>Ha Young Shin</strong><br>Art Director</div>
+        </div>
+        <div id="modal10" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait7.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Ha Young Shin</h1>
+                        <h2>Art Director</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p14.png" alt="Sung Woo Min" width="18vw" id="p11">
+                    <div class="desc1"><strong>Sung Woo Min</strong><br>Professional Development</div>
+        </div>
+        <div id="modal11" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait13.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Sung Woo Min</h1>
+                        <h2>Professional Development</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p13.png" alt="You Min Choi" width="18vw"  id="p12">
+                    <div class="desc1"><strong>You Min Choi</strong><br>Public Relations</div>
+        </div>
+        <div id="modal12" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait6.jpg" width="80%">
+                    <div class="desc">
+                        <h1>You Min Choi</h1>
+                        <h2>Public Relations</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p12.png" al="Yein Kang" width="18vw" height="20vh" id="p13">
+                    <div class="desc1"><strong>Yein Kang</strong><br>Professional Development</div>
+        </div>
+        <div id="modal13" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait3.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Yein Kang</h1>
+                        <h2>Professional Development</h2>
+                        <p>
+                            Yein is a junior from South Korea, majoring in Hotel Administration and minoring in information science while concentrating in finance.<br><br>
+                            She currently serves as a Professional Development chair of Cornell KSA. Outside of KSA, she has been involved in Ascend Cornell, ISAA, HEC and Hotelie Entrepreneurs. Her professional experiences include interning at A.T. Kearney, a global management consulting firm, and Grand InterContinental Seoul Parnas, and she intends to pursue a career in data analytics or strategy consulting.<br><br>
+                            Yein enjoys traveling, cooking, doing yoga and watching TV shows. Yein can be reached at yk652@cornell.edu.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p11.png" alt="Priscilla Chung" width="18vw" height="20vh" id="p14">
+                    <div class="desc1"><strong>Priscilla Chung</strong><br>Secretary</div>
+        </div>
+        <div id="modal14" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait2.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Priscilla Chung</h1>
+                        <h2>Secretary</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p10.png" alt="Sung Woo Park" width="18vw" height="20vh" id="p15">
+                    <div class="desc1"><strong>Sung Woo Park</strong><br>Program Director</div>
+        </div>
+        <div id="modal15" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait1.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Sung Woo Park</h1>
+                        <h2>Program Director</h2>
+                        <p>DESCRIPTION</p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p9.png" alt="Yoon Joo Chung" width="18vw" height="20vh" id="p16">
+                    <div class="desc1"><strong>Yoong Joo Chung</strong><br>Freshmen Rep</div>
+        </div>
+        <div id="modal16" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait8.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Yoon Joo Chung</h1>
+                        <h2>Freshmen Rep</h2>
+                        <p>
+                            My name is Yoon Joo Chung and I am from Seoul, South Korea. I am currently a freshman studying Hotel Administration at Cornell University.<br><br>
+                            I am freshman representative in KSA E-board. Other than KSA I am spending my first year exploring different hotelie clubs and activities.<br><br>                
+                            In my spare time, I enjoy exercising and watching movies.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p17.png" alt="Leo Kim" width="18vw" height="20vh" id="p17">
+                    <div class="desc1"><strong>Leo Kim</strong><br>Freshmen Rep</div>
+        </div>
+        <div id="modal17" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait19.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Leo Kim</h1>
+                        <h2>Frehmen Rep</h2>
+                        <p>
+                            Leo is a freshman from Hong Kong studying Information Science.<br><br>
+                            In addition to being a freshman representative at Cornell’s Korean Student Association, Leo is a proud member of the Cornell Undergraduate Asia Business Society and Cornell’s International Student Union.<br><br>                    
+                            Last summer, Leo worked as an analyst intern at KOTRA, where he facilitated procession of financial data required for investment and business plans. Leo also founded a small tutoring platform, through which he prepared younger students for their IB and IGCSE examinations, while collecting donations for vaccinations for African children.<br><br>                        
+                            In his free time, Leo watches, analyzes, and plays football. His favourite team is Manchester United, and he is gutted at his team’s recent performance in the Premier League and the Champion’s League. Furthermore, as a huge fan of League of Legends, he spends many hours a day on the Summoner’s Rift. His favourite champion is Ezreal.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p18.png" alt="Jin Ryu" width="18vw" height="20vh" id="p18">
+                    <div class="desc1"><strong>Jin Ryu</strong><br>Freshmen Rep</div>
+        </div>
+        <div id="modal18" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait18.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Jin Ryu</h1>
+                        <h2>Freshmen Rep</h2>
+                        <p>
+                            Jin is a freshman from Tenafly, NJ studying mechanical engineering.<br><br>
+                            In addition to being the Freshman Representative of KSA, Jin is a member of Theme Park Entertainment Group, CAPSU, and Corean Catholic Community, Cornell.<br><br>
+                            In Cornell, Jin hopes to learn where her true passion leads to and grow as a person. Jin also enjoys knitting, watching movies, singing and listening to music.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        <div class="gallery">
+            <img src="images/p16.png" alt="Hyu Hwan Choi" width="18vw" height="20vh" id="p19">
+                    <div class="desc1"><strong>Hyu Hwan Choi</strong><br>Freshmen Rep</div>
+        </div>
+        <div id="modal19" class="modal">
+                <span class="close">&times;</span>
+                <div class="modal-content">
+                    <img src="images/portrait12.jpg" width="80%">
+                    <div class="desc">
+                        <h1>Kyu Hwan Choi</h1>
+                        <h2>Freshmen Rep</h2>
+                        <p>
+                            Kyu Hwan is a freshman from Vietnam, intending to study mechanical engineering. He lived in Ho Chi Minh City, Vietnam, for 15 years, which allowed him to become more comfortable in cultural diversity.<br><br>
+                            On Campus, he is one of the freshman representatives of Cornell Korean Student Association. Also, he is a member of Corporate relations sub-team in Engineering Career Fair Team at Cornell and a Video Producer at LOKO Dance Team. During his high school, he was the founder and director of the very first International School Science Competition at Ho Chi Minh City, receiving $5000 sponsor from Monash University and gathering around 100 participants.<br><br>               
+                            Kyu Hwan is currently interested in entering the automobile or aerospace industries, due to his special interest in motorbikes and air crafts, but he is still exploring different fields of study.<br><br>
+                            He likes to listen to music and watch movies during his free time. Also, he has special interest in Brazilian Jiu Jitsu and motorbikes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+      <div id="footer">
+          <div id="contact"></div>
+          <div class="foot">
+              <dl class="info">
+                  <dt>Contact Information</dt>
+                  <dd>채용 관련 문의: sh995@cornell.edu <span class="line">|</span> 기타 모든 문의: sh995@cornell.edu <span class="line">|</span> General inquiries: sh995@cornell.edu
+                  </dd>
+              </dl>
+              <dl class="address">
+                  <dt>Facebook</dt>
+                  <dd>https://www.facebook.com/cornellksa/</dd>
+              </dl>
+          </div>
+          <div class="copyright">
+              <p>Website by Jaemok Yoon and Sung Woo Min</p>
+          </div>
+      </div>
+    </section>
+    <script>
+        var img1 = document.getElementById('p1');
+        var modal1 = document.getElementById('modal1');
+        var img2 = document.getElementById('p2');
+        var modal2 = document.getElementById("modal2");
+        var img3 = document.getElementById('p3');
+        var modal3 = document.getElementById("modal3");
+        var img4 = document.getElementById('p4');
+        var modal4 = document.getElementById("modal4");
+        var img5 = document.getElementById('p5');
+        var modal5 = document.getElementById("modal5");
+        var img6 = document.getElementById('p6');
+        var modal6 = document.getElementById("modal6");
+        var img7 = document.getElementById('p7');
+        var modal7 = document.getElementById("modal7");
+        var img8 = document.getElementById('p8');
+        var modal8 = document.getElementById("modal8");
+        var img9 = document.getElementById('p9');
+        var modal9 = document.getElementById("modal9");
+        var img10 = document.getElementById('p10');
+        var modal10 = document.getElementById("modal10");
+        var img11 = document.getElementById('p11');
+        var modal11 = document.getElementById("modal11");
+        var img12 = document.getElementById('p12');
+        var modal12 = document.getElementById("modal12");
+        var img13 = document.getElementById('p13');
+        var modal13 = document.getElementById("modal13");
+        var img14 = document.getElementById('p14');
+        var modal14 = document.getElementById("modal14");
+        var img15 = document.getElementById('p15');
+        var modal15 = document.getElementById("modal15");
+        var img16 = document.getElementById('p16');
+        var modal16 = document.getElementById("modal16");
+        var img17 = document.getElementById('p17');
+        var modal17 = document.getElementById("modal17");
+        var img18 = document.getElementById('p18');
+        var modal18 = document.getElementById("modal18");
+        var img19 = document.getElementById('p19');
+        var modal19 = document.getElementById("modal19");
+    
+        img1.onclick = function(){
+            modal1.style.display = "block";
+        }
+    
+        img2.onclick = function(){
+            modal2.style.display = "block";
+        }
+    
+        img3.onclick = function(){
+            modal3.style.display = "block";
+        }
+    
+        img4.onclick = function(){
+            modal4.style.display = "block";
+        }
+    
+        img5.onclick = function(){
+            modal5.style.display = "block";
+        }
+    
+        img6.onclick = function(){
+            modal6.style.display = "block";
+        }
+    
+        img7.onclick = function(){
+            modal7.style.display = "block";
+        }
+    
+        img8.onclick = function(){
+            modal8.style.display = "block";
+        }
+    
+        img9.onclick = function(){
+            modal9.style.display = "block";
+        }
+    
+        img10.onclick = function(){
+            modal10.style.display = "block";
+        }
+    
+        img11.onclick = function(){
+            modal11.style.display = "block";
+        }
+    
+        img12.onclick = function(){
+            modal12.style.display = "block";
+        }
+    
+        img13.onclick = function(){
+            modal13.style.display = "block";
+        }
+    
+        img14.onclick = function(){
+            modal14.style.display = "block";
+        }
+    
+        img15.onclick = function(){
+            modal15.style.display = "block";
+        }
+        img16.onclick = function(){
+            modal16.style.display = "block";
+        }
+    
+        img17.onclick = function(){
+            modal17.style.display = "block";
+        }
+    
+        img18.onclick = function(){
+            modal18.style.display = "block";
+        }
+        img19.onclick = function(){
+            modal19.style.display = "block";
+        }
+        window.onclick = function(event) {
+            if (event.target == modal1) {
+                modal1.style.display = "none";
+            }
+            if (event.target == modal2) {
+                modal2.style.display = "none";
+            }
+            if (event.target == modal3) {
+                modal3.style.display = "none";
+            }
+            if (event.target == modal4) {
+                modal4.style.display = "none";
+            }
+            if (event.target == modal5) {
+                modal5.style.display = "none";
+            }
+            if (event.target == modal6) {
+                modal6.style.display = "none";
+            }
+            if (event.target == modal7) {
+                modal7.style.display = "none";
+            }
+            if (event.target == modal8) {
+                modal8.style.display = "none";
+            }
+            if (event.target == modal9) {
+                modal9.style.display = "none";
+            }
+            if (event.target == modal10) {
+                modal10.style.display = "none";
+            }
+            if (event.target == modal11) {
+                modal11.style.display = "none";
+            }
+            if (event.target == modal12) {
+                modal12.style.display = "none";
+            }
+            if (event.target == modal13) {
+                modal13.style.display = "none";
+            }
+            if (event.target == modal14) {
+                modal14.style.display = "none";
+            }
+            if (event.target == modal15) {
+                modal15.style.display = "none";
+            }
+            if (event.target == modal16) {
+                modal16.style.display = "none";
+            }
+            if (event.target == modal17) {
+                modal17.style.display = "none";
+            }
+            if (event.target == modal18) {
+                modal18.style.display = "none";
+            }
+            if (event.target == modal19) {
+                modal19.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>
