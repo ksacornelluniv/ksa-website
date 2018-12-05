@@ -26,6 +26,11 @@ ul {
     padding-top: 8px; 
     
 }
+@media only screen and (max-width: 991px) {
+    .topnav {
+        display: none;
+    }
+}
 
 .logo_ksa{
     position:absolute;

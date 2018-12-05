@@ -29,7 +29,7 @@ function showDivs(n) {
 }
 
 function scrollDown() {
-    if (document.body.scrollTop > screen.height || document.documentElement.scrollTop > screen.height ) {
+    if (document.body.scrollTop > screen.height - 150 || document.documentElement.scrollTop > screen.height - 150 ) {
         document.getElementById('top_nav').style.top = "0";
         document.getElementById('top_nav').style.backgroundColor = "black";
         document.getElementById('top_nav').style.opacity = "0.9";
