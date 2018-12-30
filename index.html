@@ -29,6 +29,7 @@
     <link rel="shortcut icon" href="images/171.PNG" type="image/x-icon" />
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--for SLIDE SHOW. Remove from final version-->
     <script src="js/main.js"></script>
+    <!--Scrolling function-->
     <script>
     window.onbeforeunload = function windowload() {
         window.scrollTo(0, -100);
@@ -49,6 +50,7 @@
         <a onclick='scroll1("about")'>ABOUT</a>
         <a onclick='scroll1("home")'>HOME</a>
     </div>
+    <!--MOBILE MENU NOT USED CURRENTLY-->
     <!--MOBILE MENU
     <div class = "mobnav" id="mob_nav">
             <a class="activenav" onclick='scroll1("home")'></a>
@@ -80,6 +82,7 @@
     }
     </script>
     -->
+    <!--TITLE SECTION-->
     <div class="content">
         <section class="hero hero1">
             <div class="hero-inner">
@@ -87,9 +90,8 @@
                 <h2></h2>
             </div>
         </section>
-
-
         
+        <!--OUR COMMITMENTS SECTION (ABOUT)-->
         <div class="cont_body yalla_info1">
             <div class="in_info">
                 <h3 class="yalla_info_tit htitle">Our Commitments</h3>
@@ -106,6 +108,7 @@
             </div>
         </div>
     </div>
+    <!--SPOTLIGHT SECTION (NEED TO CHANGE)-->
     <div class="content1" style="background: #F8F8F8; background-color: #F8F8F8; ">
         <div class="w3-content w3-display-container" style="height: 110vh; background: #F8F8F8;">
             <div id="spotlight"><h1 style="color: black; font-size: 40px; padding-top: 40px; margin-bottom: -20px; text-align: center;"><div class="sectiontitle">Spotlight</div></h1><br><br>
@@ -127,7 +130,7 @@
     </script>
     
 
-
+<!--EBOARD SECTION-->
 <section>
 <div class="eboardtitle">KSA E-BOARD</div>
 <div class="eboard">
@@ -508,25 +511,7 @@
                 </div>
             </div>
         </div>
-    
-      <div id="footer">
-          <div id="contact"></div>
-          <div class="foot">
-              <dl class="info">
-                  <dt>Contact Information</dt>
-                  <dd>채용 관련 문의: sh995@cornell.edu <span class="line">|</span> 기타 모든 문의: sh995@cornell.edu <span class="line">|</span> General inquiries: sh995@cornell.edu
-                  </dd>
-              </dl>
-              <dl class="address">
-                  <dt>Facebook</dt>
-                  <dd>https://www.facebook.com/cornellksa/</dd>
-              </dl>
-          </div>
-          <div class="copyright">
-              <p>Website by Jaemok Yoon and Sung Woo Min</p>
-          </div>
-      </div>
-    </section>
+    <!--SCRIPT FOR EBOARD SECTION-->
     <script>
         var img1 = document.getElementById('p1');
         var modal1 = document.getElementById('modal1');
@@ -698,5 +683,27 @@
             }
         }
     </script>
+    
+    <!--FOOTER SECTION-->
+      <div id="footer">
+          <div id="contact"></div>
+          <div class="foot">
+              <dl class="info">
+                  <dt>Contact Information</dt>
+                  <dd>채용 관련 문의: sh995@cornell.edu <span class="line">|</span> 기타 모든 문의: sh995@cornell.edu <span class="line">|</span> General inquiries: sh995@cornell.edu
+                  </dd>
+              </dl>
+              <dl class="address">
+                  <dt>Facebook</dt>
+                  <dd>https://www.facebook.com/cornellksa/</dd>
+              </dl>
+          </div>
+          <div class="copyright">
+              <p>Website by Jaemok Yoon and Sung Woo Min</p>
+          </div>
+      </div>
+    </section>
+
+    
 </body>
 </html>
