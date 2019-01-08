@@ -1,23 +1,72 @@
 /* Pattern styles */
 .container {
   display: flex;
+  background-color: #ebeeee;
 }
 
 .left-half {
-  margin-left: 8vw;
+  margin-left: 15vw;
   flex: 1;
   padding: 1rem;
   background-size: 100% 100%;
+<<<<<<< HEAD
   background-image:url('../images/drink.jpg');
   
+=======
+  background-image: url('../images/IMG_9774.jpg');
+  background-repeat: no-repeat;
+  height: 46vh;
+>>>>>>> b3d8fb256e54ff6bdbbc2c1f8e79de1080f6ba65
 }
 
 .right-half {
-  margin-right: 8vw;
-  background-color: #b6701e;
+  margin-right: 15vw;
+  background-color: #ebeeee;
   flex: 1;
   padding: 1rem;
 }
+
+.left-half1 {
+  margin-left: 15vw;
+  background-color: #ebeeee;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half1 {
+  margin-right: 15vw;
+  flex: 1;
+  padding: 1rem;
+  background-size: 100% 100%;
+  background-image: url('../images/IMG_9774.jpg');
+  background-repeat: no-repeat;
+  height: 46vh;
+}
+
+.right-half h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.right-half p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.left-half1 h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.left-half1 p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
 
 /*KSA LOGO*/
 .logo_ksa{
@@ -179,7 +228,7 @@ p {
 }
 
 .cont_body.yalla_info1 {
-    background: #ebeeee;
+    background: white;
     height: 780px;
 }
 .cont_body.yalla_info1 .in_info {
@@ -380,7 +429,7 @@ hr {
     color: black;
     font-family: "Times New Roman", Times, serif;
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 50px;
     text-align: center;
 }
 /*Eboard Section as a whole*/
@@ -422,7 +471,7 @@ hr {
 }
 /*Space between Eboard Tiles*/
 .galleryspace {
-    width: 25px;
+    width: 10px;
     height: 200px;
 }
 
