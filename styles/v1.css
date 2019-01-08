@@ -132,6 +132,7 @@
 
 .topnav a:hover {
     color: darkgray;
+    cursor: pointer;
 }
 
 /*Eboard Names*/
