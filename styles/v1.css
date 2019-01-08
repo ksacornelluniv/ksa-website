@@ -7,7 +7,9 @@
   margin-left: 8vw;
   flex: 1;
   padding: 1rem;
-  background-image: url('ksa-website/images/IMG_9774.jpg') no-repeat center top;
+  background-size: 100% 100%;
+  background-image:url('../images/drink.jpg');
+  
 }
 
 .right-half {
@@ -41,7 +43,7 @@
     display: block;
     z-index: 5;
     padding-top: 8px;
-
+   
 }
 .topnav a{
     float: right;
@@ -52,10 +54,12 @@
     text-decoration: none;
     font-size: 14px;
     margin-right: 35px;
+    
 }
 
 .topnav a:hover {
     color: darkgray;
+    cursor: pointer;
 }
 
 /*Spotlight Title & Eboard Names*/
@@ -353,6 +357,7 @@ hr {
 
 }
 
+.pointer {cursor: pointer;}
 
 .sectiontitle{
     font-size: 1.5em;
