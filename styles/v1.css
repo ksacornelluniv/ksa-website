@@ -9,9 +9,14 @@
   flex: 1;
   padding: 1rem;
   background-size: 100% 100%;
+<<<<<<< HEAD
+  background-image:url('../images/drink.jpg');
+  
+=======
   background-image: url('../images/IMG_9774.jpg');
   background-repeat: no-repeat;
   height: 46vh;
+>>>>>>> b3d8fb256e54ff6bdbbc2c1f8e79de1080f6ba65
 }
 
 .right-half {
@@ -117,7 +122,7 @@
     display: block;
     z-index: 5;
     padding-top: 8px;
-
+   
 }
 .topnav a{
     float: right;
@@ -128,10 +133,12 @@
     text-decoration: none;
     font-size: 14px;
     margin-right: 35px;
+    
 }
 
 .topnav a:hover {
     color: darkgray;
+    cursor: pointer;
 }
 
 /*Spotlight Title & Eboard Names*/
@@ -429,6 +436,7 @@ hr {
 
 }
 
+.pointer {cursor: pointer;}
 
 .sectiontitle{
     font-size: 1.5em;
