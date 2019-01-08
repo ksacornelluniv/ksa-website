@@ -33,9 +33,26 @@
   flex: 1;
   padding: 1rem;
   background-size: 100% 100%;
-  background-image: url('../images/IMG_9774.jpg');
+  background-image: url('../images/profdev.jpg');
   background-repeat: no-repeat;
   height: 46vh;
+}
+
+.left-half2 {
+  margin-left: 15vw;
+  flex: 1;
+  padding: 1rem;
+  background-size: 100% 100%;
+  background-image: url('../images/profdev1.jpg');
+  background-repeat: no-repeat;
+  height: 46vh;
+}
+
+.right-half2 {
+  margin-right: 15vw;
+  background-color: #ebeeee;
+  flex: 1;
+  padding: 1rem;
 }
 
 .right-half h1 {
@@ -49,6 +66,19 @@
   font-family: "Times New Roman", Times, serif;
   text-align: center;
 }
+
+.right-half2 h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.right-half2 p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
 
 .left-half1 h1 {
   color: black;
