@@ -557,7 +557,7 @@ hr {
 
 .modal-content img{
     width: 50%;
-    object-fit: cover;
+    height: 100%;
 }
 .desc {
     width: 50%;
