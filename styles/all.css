@@ -1,0 +1,756 @@
+html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+.abouts_section {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Pattern styles */
+.container {
+  display: flex;
+  background-color: #ebeeee;
+}
+
+/*Spotlight*/
+.left-half {
+  margin-left: 15vw;
+  flex: 1;
+  padding: 1rem;
+  background-size: 100% 100%;
+  background-image: url('../images/profdev.jpg');
+  background-repeat: no-repeat;
+  height: 46vh;
+}
+
+.right-half {
+  margin-right: 15vw;
+  background-color: #ebeeee;
+  flex: 1;
+  padding: 1rem;
+}
+
+.left-half1 {
+  margin-left: 15vw;
+  background-color: #ebeeee;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half1 {
+  margin-right: 15vw;
+  flex: 1;
+  padding: 1rem;
+  background-size: 100% 100%;
+  background-image: url('../images/drink.jpg');
+  background-repeat: no-repeat;
+  height: 46vh;
+}
+
+.left-half2 {
+  margin-left: 15vw;
+  flex: 1;
+  padding: 1rem;
+  background-size: 100% 100%;
+  background-image: url('../images/winterformal.jpg');
+  background-repeat: no-repeat;
+  height: 46vh;
+}
+
+.right-half2 {
+  margin-right: 15vw;
+  background-color: #ebeeee;
+  flex: 1;
+  padding: 1rem;
+}
+
+.right-half h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.right-half p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.right-half2 h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.right-half2 p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+
+.left-half1 h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+.left-half1 p {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+
+
+/*KSA LOGO*/
+.logo_ksa{
+    top:10px;
+    z-index:10;
+    display:block;
+    width: 50px;
+    height: 50px;
+    left:2vw;
+    opacity: 0.8;
+    position: absolute;
+}
+
+/*NAVIGATION BAR*/
+.topnav {
+    background-color: transparent;
+    overflow: hidden;
+    font-family: "Times New Roman", Times, serif;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: top 1000ms linear;
+    display: block;
+    z-index: 5;
+    padding-top: 8px;
+
+}
+.topnav a{
+    float: right;
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 35px;
+}
+
+.topnav a:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+/*Eboard Names*/
+.spotlight h1 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 70px;
+  text-align: center;
+}
+/*Eboard Jobs*/
+h2 {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+/*Our Commitment Title*/
+h3 {
+  color: white;
+  font-size: 20px;
+}
+
+/*General Body Styling*/
+body {
+  margin-left: 0px;
+
+}
+/*General Paragraph Styling*/
+p {
+  color: white;
+  font-size: 24px;
+}
+
+img{
+    /* Sizing */
+    width: 100%;
+}
+
+/*Styling for Sections after Title Section*/
+.cont_body {
+    position:relative;
+    width:100%;
+    height:100%;
+    overflow: hidden;
+}
+
+/*Commitment Section*/
+.cont_body.yalla_info1 {
+    background: white;
+    height: 780px;
+}
+
+
+.cont_body.yalla_info1 .in_info {
+    position:relative;
+    width:1020px;
+    text-align:center;
+    margin:0 auto;
+    padding: 50px 0;
+}
+
+/*Commitment Title*/
+.yalla_info_tit {
+  font-size: 4em;
+  color: black;
+  /* Margins */
+  margin-top: 2vh;
+  margin-bottom: 0.2em;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+
+}
+
+/*
+.yalla_logo {
+    background: url('../img/yalla_logo.svg') 0 0 no-repeat;
+    display:inline-block;
+    width: 160px;
+    height: 61px;
+    background-size: 160px 61px;
+    -webkit-background-size: 160px 61px;
+    font-size:0; text-indent:-2000px;
+}*/
+
+.y_desc {
+    margin-bottom: 8px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+    margin-top: -25px;
+}
+.r_text {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.y_mail {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.yalla_info_contents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+    margin-right: -10px;
+}
+.yalla_info_contents .about_desc {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.yalla_info_contents .info_icon {
+    /* padding-left: 139px;     */
+    padding-left: -100px;
+    width: 80px;
+    height: 350px;
+    padding-top:30px;
+    text-align: center;
+    margin-right: 100px;
+
+}
+
+/*Images inside Commitment Section*/
+.yalla_info_contents .info_icon:before {
+    /* position: absolute; */
+    top: 0;
+    display:inline-block;
+    height: 340px;
+    width: 340px;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    content: '';
+    margin-left:-80px;
+}
+
+.yalla_info_contents .info_icon:nth-child(1):before{
+
+    background-image: url('../images/mission.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.yalla_info_contents .info_icon:nth-child(2):before{
+    background-image: url('../images/tradition.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.yalla_info_contents .info_icon:nth-child(3):before{
+    background-image: url('../images/here1.jpg');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.yalla_info_contents .info_icon .y_icontitle{
+  font-size:24px;
+  padding-top:20px;
+  text-align: center;
+  font-weight: bold;
+  display:inline-block;
+  color: black;
+  width:300px;
+  margin-left: -60px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.yalla_info_contents .info_icon .y_icondesc{
+  vertical-align:top;
+  font-size: 18px;
+  padding-top: 5px;
+  text-align: center;
+  display:inline-block;
+  width: 350px;
+  margin-left: -85px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.cont_body.yalla_info2 {
+    background:url('../images/IMG_3848.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1800px;
+    ;
+
+
+}
+/*Footer Contact info Styling*/
+
+
+.sectiontitle{
+    font-size: 1.5em;
+  color: black;
+  /*font-family: PT Sans,sans-serif;*/
+  /*font-family: "Times New Roman", Times, serif;*/
+    /*font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+    /*font-family: Gotham,gotham,Verdana,sans-serif;*/
+  /* Margins */
+  margin-top: -2vh;
+  margin-bottom: 0.2em;
+  font-family: PT Sans,sans-serif;
+  font-weight: 500;
+}
+/*Eboard Title*/
+.eboardtitle{
+    width: 100%;
+    height: 80px;
+    display: inline-block;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+/*Eboard Section as a whole*/
+.eboard {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+
+    margin-top: 30px;
+    font-family: "Times New Roman", Times, serif;
+    align-content: center;
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+/*Used for adding image at the beginning of Eboard Section*/
+.gallery1 {
+    width: 200px;
+    margin-left: 15px;
+    border: 1px solid white;
+    max-height: 100px;
+}
+.gallery1 img {
+    width: 100%;
+    height: auto;
+}
+/*Individual Eboard Tile*/
+.gallery {
+    width: 200px;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    border: 1px solid snow;
+    text-align: center;
+    font-size: 20px;
+    height: 280px;
+    padding-bottom: 10px;
+}
+/*Space between Eboard Tiles*/
+.galleryspace {
+    width: 10px;
+    height: 200px;
+}
+
+.gallery:hover {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+}
+.desc1 {
+    width: 100%;
+    color: black;
+    font-size: 18px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0px;
+    border: 1px solid #888;
+    width: 60%;
+    height: 70vh;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.modal-content img{
+    width: 50%;
+    height: 100%;
+}
+.desc {
+    width: 50%;
+    color: black;
+}
+.desc h1 {
+    font-size: 22px;
+    margin-left: 20px;
+}
+.desc h2 {
+    font-size: 14px;
+    margin-left: 0px;
+    color: black;
+}
+.desc p {
+    font-size: 16px;
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* The Close Button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    display: none;
+}
+
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    display: none;
+}
+/*Buttons for Slides*/
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    background-color: transparent;
+    border: transparent;
+}
+.next {
+right: 0;
+}
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.foot{
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+.foot p {
+    color: black;
+    font-size: 2vh;
+
+    font-family: "Times New Roman", Times, serif;
+}
+
+.socialmedia {
+    color: white;
+}
+
+.socialmedia img {
+    height: 30px;
+    width: 30px;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 50%;
+}
+
+.socialmedia img:hover {
+    opacity: 0.7;
+}
+
+#banner {
+    width: 100%;
+    background-image: url(../images/mentor.jpg);
+    height: 405px;
+    background-position: center;
+}
+
+.title_section {
+    display: flex;
+    flex-direction: row;
+}
+
+.title_section img {
+    height: 50vh;
+}
+
+.title_info {
+    padding: 0;
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+
+.title_content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.titlesection h1 {
+    font-size: 4em;
+    color: black;
+    margin-top: 2vh;
+    margin-bottom: 0.2em;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+.title_info img {
+    border-radius: 50%;
+    display: inline-block;
+    height: 170px;
+    width: 170px;
+    display: block;
+    background-repeat: no-repeat;
+}
+
+.title_info h1 {
+    font-size: 24px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+}
+
+.title_info p {
+    font-size: 16px;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+}
+
+/* Navigation Bar */
+.mobile-nav {
+    display: none;
+}
+
+.mobile-nav-toggle {
+    display: block;
+}
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 5px 0;
+    transition: 0.5s;
+}
+
+.hidden{
+    display: none;
+}
+
+.change .bar1 {
+    transform: rotate(-45deg) translate(-7px, 7px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+    transform: rotate(45deg) translate(-7px, -7px);
+}
+
+.nav_side {
+display: flex;
+font-size: 80px;
+flex-grow: 1;
+opacity: 0;
+transition: opacity .2s;
+}
+
+.nav_side:hover {
+opacity: 1;
+text-shadow: 2px 2px silver;
+}
+
+nav {
+    background-color: transparent;
+    width: 100%;
+    position: fixed;
+    top: 1em;
+    right: -2em;
+    z-index: 90;
+}
+
+nav a {
+text-decoration: none;
+color: white;
+}
+
+nav li {
+list-style-type: none;
+}
+
+/*Mobile page*/
+@media (max-width: 770px) {
+    .eboard {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        flex-direction: column;
+        
+        -webkit-flex-flow: row wrap;
+        justify-content: center;
+    
+        margin-top: 30px;
+        font-family: "Times New Roman", Times, serif;
+        align-content: center;
+        text-align: center;
+    }
+
+    .gallery1 {
+        width: calc(4/12 * 100%);
+        border: 1px solid white;
+        max-height: 100px;
+    }
+
+    .gallery1 img {
+        width: calc(4/12 * 100%);
+        height: auto;
+    }
+    /*Individual Eboard Tile*/
+    .gallery {
+        width: calc(4/12 * 100%);
+        padding-right: 0px;
+        margin-bottom: 5px;
+        border: 1px solid snow;
+        text-align: center;
+        font-size: 20px;
+        height: 230px;
+        padding-bottom: 15px;
+    }
+
+    .eboardtitle {
+        font-size: 30px;
+    }
+
+    .title_content h1 {
+        font-size: 2em;
+        color: black;
+        font-family: "Times New Roman", Times, serif;
+        font-weight: 500;
+        text-align: center;
+    }
+        
+    .topnav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: block;
+    }
+}
