@@ -7,10 +7,11 @@
   <title>Cornell KSA</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="styles/v1.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="styles/all.css" media="screen">
     <link rel="shortcut icon" href="images/171.PNG" type="image/x-icon" />
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> <!--for SLIDE SHOW. Remove from final version-->
-    <script src="js/main.js"></script>
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/mobile-nav.js" ></script>
+    <script type="text/javascript" src="js/main.js" ></script>
     <!--Scrolling function-->
     <script>
     window.onbeforeunload = function windowload() {
@@ -23,42 +24,58 @@
 <body><!--onresize="menutoggle()" onbeforeunload="menutoggle()">-->
     <div id="home"></div>
     <div id="klogo"><img src="images/IMG_3845.JPG" alt="KSA_logo" class="logo_ksa"></div>
-    <!--DESKTOP MENU-->
-    <div class = "topnav" id="top_nav" style="animation-duration: 0.3s">
-        <a onclick='scroll1("contact")'>CONTACT</a>
-        <a onclick='scroll1("eboard")'>EBOARD</a>
-        <a onclick='scroll1("spotlight")'>SPOTLIGHT</a>
-        <a onclick='scroll1("about")'>ABOUT</a>
-        <a onclick='scroll1("home")'>HOME</a>
-    </div>
+    <nav>
+        <!--MOBILE MENU-->
+        <div class="mobile-nav">
+            <a href="#" id="mobileNavToggle" onclick="mobileNavToggle(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </a>
+            <ul id="mobile-nav-content" class="hidden">
+                <li><a onclick='scroll1("contact")'>CONTACT</a></li>
+                <li><a onclick='scroll1("eboard")'>EBOARD</a></li>
+                <li><a onclick='scroll1("about")'>ABOUT</a></li>
+                <li><a onclick='scroll1("home")'>HOME</a></li>
+            </ul>
+        </div>
+        <!--DESKTOP MENU-->
+        <div class="topnav" style="animation-duration: 0.3s; top: 0px; background-color: transparent; opacity: 0.8;">
+            <a onclick='scroll1("contact")'>CONTACT</a>
+            <a onclick='scroll1("eboard")'>EBOARD</a>
+            <a onclick='scroll1("about")'>ABOUT</a>
+            <a onclick='scroll1("home")'>HOME</a>
+        </div>
+    </nav>
 
+    <div id="banner"></div>
     <!--TITLE SECTION-->
-    <div class="content">
-        <section class="hero hero1">
-            <div class="hero-inner">
-                <h1>Cornell University</h1>
-                <h2>Korean Students Association</h2>
-            </div>
-        </section>
-
-        <!--OUR COMMITMENTS SECTION (ABOUT)-->
-        <div class="cont_body yalla_info1">
-            <div class="in_info">
-                <h3 class="yalla_info_tit htitle">Our Commitments</h3>
-                <!--<p class="y_desc">Cornell's Korean Student Association Promotes </p>-->
-                <div id="about"><div class="yalla_info_contents">
-                    <div class="info_icon"><br><span class="y_icontitle">MISSION</span>
-                        <span class="y_icondesc">Enrich the college experience <br>by listening to the needs of students.</span></div>
-                    <div class="info_icon"><span class="y_icontitle">TRADITION</span>
-                        <span class="y_icondesc">Foster relationships among students by promoting learning and awareness of Korean culture throughout Cornell.</span></div>
-                    <div class="info_icon"><span class="y_icontitle">HERE</span>
-                        <span class="y_icondesc">Enhance the sense of community by planning a variety of social, cultural and political events.</span></div>
+    <div class="titlesection">
+        <h1>Our Commitments</h1>
+        <div class="title_content">
+            <!--OUR COMMITMENTS SECTION (ABOUT) -->
+            <div class="abouts_section">
+                <div id="about"></div class="yalla_info_contents">
+                <div class="title_info">
+                    <img src="images/mission.jpg" alt="eboard logo"><br>
+                    <h1>MISSION</h1><br>
+                        <p>Enrich the college experience by listening to the needs of students.</p>
+                </div>
+                <div class="title_info">
+                    <img src="images/tradition.jpg" alt="eboard logo"><br>
+                    <h1>TRADITION</h1><br>
+                        <p>Foster relationships among students by promoting learning and awareness of Korean culture throughout Cornell.</p>
+                </div>
+                <div class="title_info">
+                    <img src="images/here1.jpg" alt="eboard logo"><br>
+                    <h1>HERE</h1><br>
+                        <p>Enhance the sense of community by planning a variety of social, cultural and political events.</p>
                 </div>
                 </div>
             </div>
         </div>
     </div>
-    <!--SPOTLIGHT SECTION (NEED TO CHANGE)-->
+    <!-- SPOTLIGHT SECTION (NEED TO CHANGE)
     <div id="spotlight">
       <section class="container">
         <div class="left-half">
@@ -97,12 +114,12 @@
           </article>
         </div>
       </section>
-    </div>
+    </div> -->
 
 <!--EBOARD SECTION-->
 <div id="eboard">
 <section>
-<div class="eboardtitle"><strong>KSA Executive Board</strong></div>
+<div class="eboardtitle"><strong>Our Executive Board</strong></div>
 <div class="eboard">
     <!--
         <div class="gallery1">
@@ -651,25 +668,24 @@ Steve can be seen DJing parties around Cornell and watching squirrels on campus.
     </div>
 
     <!--FOOTER SECTION-->
-      <div id="footer">
-          <div id="contact"></div>
-          <div class="foot">
-              <dl class="info">
-                  <dt>Contact Information</dt>
-                  <dd>채용 관련 문의: sh995@cornell.edu <span class="line">|</span> 기타 모든 문의: sh995@cornell.edu <span class="line">|</span> General inquiries: sh995@cornell.edu
-                  </dd>
-              </dl>
-              <dl class="address">
-                  <dt>Facebook</dt>
-                  <dd>https://www.facebook.com/cornellksa/</dd>
-              </dl>
-          </div>
-          <div class="copyright">
-              <p>Website by Jaemok Yoon and Sung Woo Min</p>
-          </div>
-      </div>
+    <footer>
+        <div id="contact"></div>
+        <div class="foot">
+          <p>© Cornell KSA 2019 | Website by Sung Woo Min and Jaemok Yoon</p>
+          <p>모든 문의 | General Inquiries: sh995@cornell.edu</p>
+            <div class="socialmedia">
+                <a href="https://www.facebook.com/cornellksa/">
+                <img title="Facebook" alt="Facebook" src="images/facebook.png" width="35" height="35" />
+                <!-- Icon provided https://www.vecteezy.com/vector-art/95039-free-social-media-icons-->
+                </a>
+                <a href="https://www.instagram.com/we_are_buddybuddy/">
+                <img title="Instagram" alt="Instagram" src="images/instagram.png" width="35" height="35" />
+                <!-- Icon provided https://www.vecteezy.com/vector-art/95039-free-social-media-icons-->
+                </a>
+            </div>
+        </div>
+    </footer>
     </section>
-
 
 </body>
 </html>
