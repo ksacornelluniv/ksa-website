@@ -4,7 +4,7 @@ Seyoung is a senior, majoring in hotel administration and a minor in real estate
 
 She has experience in both hospitality and consulting industry - this past summer, she  worked at A.T. Kearney in Seoul, where she worked on data analytics and research. She also has operational and management experience in Ritz-Carlton in Seoul and Compass Group in New York.
 
-She enjoys snowboarding, cooking, and bartending in her free time. Seyoung can be reached at sh995@cornell.edu
+She enjoys snowboarding, cooking, and bartending in her free time. Seyoung can be reached at jr968@cornell.edu.
 
 *JuHee Son*
 
