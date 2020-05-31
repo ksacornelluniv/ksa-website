@@ -1,0 +1,225 @@
+@font-face {
+  font-family: "SourceSansPro";
+  src: url("../fonts/SourceSansPro-Regular.ttf");
+}
+body {
+  font-family: SourceSansPro;
+}
+/* RESET RULES & HELPER CLASSES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+  --lightblue: #f6f9fc;
+  --red: #d64041;
+}
+
+.navbarlogo {
+  width: 35px;
+}
+
+.landing {
+  height: 20vh;
+  padding-top: 45vh;
+}
+
+.landing-text-tablet {
+  display: none;
+}
+
+.landing-text-mobile {
+  display: none;
+}
+
+.commitmentrow {
+  margin-bottom: 100px;
+}
+
+.scrolltag {
+  margin-top: -100px;
+  height: 100px;
+}
+
+.sectionheading {
+  padding-bottom: 6vh;
+}
+
+.featureline {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.navbar-mobile-size {
+  width: 100vw;
+}
+
+.eboardbox {
+  transition: box-shadow 0.3s;
+  border: 1px solid #ccc;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+.eboardbox:hover {
+  box-shadow: 0 0 11px rgba(20, 20, 20, 0.3);
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.bg-lightblue {
+  background: var(--lightblue);
+}
+
+.bg-red {
+  background: var(--red);
+}
+
+.text-red {
+  color: var(--red);
+}
+
+.container-fluid-max {
+  max-width: 1440px;
+}
+
+.cover {
+  background: no-repeat center/cover;
+}
+
+.p-15 {
+  padding: 15px;
+}
+
+/* SCROLL ANIMATIONS
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.scroll .page-header {
+  background: var(--red);
+}
+
+.scroll .hero {
+  transform: scale(0.98);
+}
+
+/* HEADER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-header {
+  transition: background 0.5s ease-in-out;
+}
+
+.page-header .navbar {
+  padding: 1rem 0;
+}
+
+.page-header .navbar-toggler {
+  /* the variable is inherited from BS4 built-in variables */
+  border-color: var(--white);
+}
+
+/* BANNER SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.hero {
+  background-attachment: fixed;
+  transition: transform 0.5s ease-in-out;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.5) 0,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.1) 100%
+  );
+}
+
+.hero .container-fluid {
+  z-index: 10;
+}
+
+/* POPULAR DESTINATIONS SECTION
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.popular-destinations figure-img {
+  margin-bottom: 0px;
+}
+
+.popular-destinations figure {
+  margin-bottom: 30px;
+}
+
+.popular-destinations figcaption {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgb(255, 255, 255);
+}
+
+.popular-destinations img {
+  filter: none;
+}
+
+.popular-destinations a:hover img {
+  filter: none;
+}
+
+/* PAGE FOOTER
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.page-footer .footer-links {
+  text-align: right;
+}
+
+/* MEDIA QUERIES
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/* MEDIUM SCREENS */
+@media screen and (max-width: 991px) {
+  .page-header {
+    background: var(--red);
+  }
+
+  .landing-text-desktop {
+    display: none;
+  }
+
+  .landing-text-tablet {
+    display: block;
+    /* font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: semi-condensed;
+    font-weight: lighter; */
+  }
+
+  .landing-text-mobile {
+    display: none;
+  }
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width: 767px) {
+  .page-footer .footer-child {
+    text-align: center;
+  }
+  .landing-text-desktop {
+    display: none;
+  }
+
+  .landing-text-tablet {
+    display: none;
+  }
+
+  .landing-text-mobile {
+    display: block;
+    /* font-family: sans-serif, "Helvetica Neue", "Lucida Grande", Arial;
+    font-stretch: semi-condensed;
+    font-weight: lighter; */
+  }
+}
